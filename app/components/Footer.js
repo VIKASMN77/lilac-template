@@ -9,9 +9,8 @@ export default function Footer() {
             <footer className="footer-main" id="contact">
                 <div className="footer-main__grid">
                     <div className="footer-main__brand">
-                        <h3>Lilac Template</h3>
-                        <p>123 Example Road</p>
-                        <p>Minneapolis, MN</p>
+                        <h3>Dr. Maya Reynolds, PsyD</h3>
+                        <p>Santa Monica, CA</p>
                         <br />
                         <a href="mailto:email@example.com">email@example.com</a>
                         <a href="tel:+18005555555">(800) 555-5555</a>
@@ -44,7 +43,7 @@ export default function Footer() {
                     Lolicone Template Credits: <a href="#">Go Bloom Creative</a>
                 </p>
                 <p className="footer-bottom__copy">
-                    All Rights Reserved © 2024 Your Business Name Here, LLC.
+                    © Dr. Maya Reynolds, PsyD. Therapy for anxiety, trauma &amp; burnout in Santa Monica, CA.
                 </p>
             </div>
         </>

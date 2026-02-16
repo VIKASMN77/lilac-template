@@ -18,13 +18,12 @@ export default function Office() {
           <h2 className="office__title">A calm space for healing.</h2>
           <p className="office__intro">
             Our office is designed so you can feel safe, at ease, and fully yourself. Whether you choose
-            in-person or hybrid sessions, you&apos;ll find a quiet, private environment where your comfort
-            and confidentiality come first.
+            in-person therapy in Santa Monica or telehealth across California, you&apos;ll find a quiet, private environment where your comfort and confidentiality come first.
           </p>
           <div className="office__details">
             <div className="office__detail">
               <span className="office__detail-label">Location</span>
-              <span className="office__detail-text">Minneapolis, MN — easy parking and transit-friendly.</span>
+              <span className="office__detail-text">Santa Monica, CA — easy parking and transit-friendly.</span>
             </div>
             <div className="office__detail">
               <span className="office__detail-label">Sessions</span>

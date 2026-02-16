@@ -7,7 +7,7 @@ export default function OfficePage() {
   return (
     <>
       <header className="header" id="header">
-        <Link href="/" className="header__logo">Lilac Template</Link>
+        <Link href="/" className="header__logo">Dr. Maya Reynolds, PsyD</Link>
         <nav className="header__nav">
           <Link href="/#office" className="header__nav-link">Office</Link>
           <Link href="/#contact" className="header__nav-link">Contact</Link>
@@ -58,11 +58,11 @@ export default function OfficePage() {
           <div className="office-page__details">
             <div className="office-page__detail">
               <span className="office-page__detail-label">Location</span>
-              <span className="office-page__detail-text">Minneapolis, MN — easy parking and transit-friendly.</span>
+              <span className="office-page__detail-text">Santa Monica, CA — easy parking and transit-friendly.</span>
             </div>
             <div className="office-page__detail">
               <span className="office-page__detail-label">Sessions</span>
-              <span className="office-page__detail-text">In-person and hybrid options available.</span>
+              <span className="office-page__detail-text">In-person in Santa Monica &amp; telehealth across California.</span>
             </div>
             <div className="office-page__detail">
               <span className="office-page__detail-label">Safety, comfort & privacy</span>
@@ -76,7 +76,7 @@ export default function OfficePage() {
             <div className="office-page__feature-content">
               <h2 className="office-page__feature-title">In-person & hybrid sessions</h2>
               <p className="office-page__feature-text">
-                Meet in our calming office for face-to-face sessions, or join from home via secure video when that works better for you. We offer both in-person and hybrid options so you can choose what feels right for your schedule and comfort.
+                In-person therapy in Santa Monica in a calming office, or secure telehealth for clients across California. Choose what fits your schedule and comfort.
               </p>
             </div>
             <div className="office-page__feature-image">
@@ -122,7 +122,7 @@ export default function OfficePage() {
           <Link href="/">Home</Link>
           <Link href="/#contact">Contact</Link>
         </div>
-        <p className="footer-bottom__copy">© Lilac Template. Therapy for Adults in Minneapolis, MN.</p>
+        <p className="footer-bottom__copy">© Dr. Maya Reynolds, PsyD. Anxiety, trauma &amp; burnout therapy in Santa Monica, CA.</p>
       </footer>
     </>
   );

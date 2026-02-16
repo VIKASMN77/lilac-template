@@ -4,29 +4,35 @@ import Image from 'next/image';
 
 const specialties = [
     {
-        title: 'Self-Esteem',
-        text: "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
-        image: '/images/self-esteem.png',
-        alt: 'Man in home office reflecting',
+        title: 'Anxiety Therapy',
+        text: "Anxiety therapy in Santa Monica that helps you quiet the worry loop, face avoidance, and feel more grounded. We'll use evidence-based tools so you can respond to stress instead of being ruled by it.",
+        image: '/images/service-anxiety-nature.png',
+        alt: 'Calm and well-being in nature — supportive space for anxiety therapy',
     },
     {
-        title: 'Relationships',
-        text: "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
+        title: 'Trauma & EMDR Therapy',
+        text: "Trauma and EMDR therapy to process past experiences that still affect you. EMDR helps the brain reprocess distressing memories so you can feel less triggered and more present in your life.",
         image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=500&h=500&fit=crop',
-        alt: 'Person sitting outdoors peacefully',
+        alt: 'Peaceful space for trauma therapy',
     },
     {
-        title: 'Burnout',
-        text: "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop',
-        alt: 'Person reading near bookshelf',
+        title: 'Burnout & Perfectionism',
+        text: "Burnout therapy for high achievers who feel exhausted, never good enough, or stuck in overdoing. We'll work on boundaries, self-compassion, and sustainable ways of living and working.",
+        image: '/images/service-burnout.png',
+        alt: 'Contemplative view — hope and new beginnings',
+    },
+    {
+        title: 'Stress & Overthinking',
+        text: "Support for chronic stress and overthinking so you can step out of rumination and into clearer decisions. We combine mindfulness and practical strategies tailored to your life.",
+        image: '/images/service-stress.png',
+        alt: 'Triumph and new beginnings — clarity beyond stress',
     },
 ];
 
 export default function Specialties() {
     return (
         <section className="specialties" id="specialties">
-            <h2 className="specialties__title">My Specialties</h2>
+            <h2 className="specialties__title">Services</h2>
             <div className="specialties__grid">
                 {specialties.map((item) => (
                     <div className="specialty-card" key={item.title}>

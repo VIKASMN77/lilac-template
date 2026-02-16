@@ -8,12 +8,12 @@ export default function About() {
         <>
             <section className="about" id="about">
                 <div className="about__content">
-                    <h2 className="about__title">Live a fulfilling life.</h2>
+                    <h2 className="about__title">A grounded, evidence-based approach to therapy.</h2>
                     <p className="about__text">
-                        Life can be challenging—especially when you&apos;re trying to balance your personal and professional life.
+                        I&apos;m Dr. Maya Reynolds, a licensed clinical psychologist based in Santa Monica, California. I work collaboratively with adults who are ready to move through anxiety, trauma, and burnout—and find a calmer, more connected way of living.
                     </p>
                     <p className="about__text">
-                        It&apos;s easy to feel like you&apos;re alone in facing these challenges, but I want you to know that I&apos;m here to help.
+                        My approach weaves together cognitive-behavioral therapy (CBT), EMDR for trauma, mindfulness, and body-oriented techniques so we can address both the mind and the nervous system. You&apos;ll find a non-judgmental space where we go at your pace.
                     </p>
                     <Link href="#contact" className="about__cta-link">GET IN TOUCH →</Link>
                 </div>

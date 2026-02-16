@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Lilac Template',
-  description: 'Therapy for Adults in Minneapolis, MN. Live your life in full bloom.',
+  title: 'Dr. Maya Reynolds, PsyD | Anxiety, Trauma & Burnout Therapy in Santa Monica, CA',
+  description: 'Licensed clinical psychologist in Santa Monica, CA. Anxiety therapy, trauma and EMDR therapy, burnout therapy. In-person and telehealth across California.',
 };
 
 export default function RootLayout({ children }) {
