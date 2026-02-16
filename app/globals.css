@@ -991,6 +991,7 @@ img {
   font-weight: 300;
   color: var(--text-dark-green);
   margin-top: 12px;
+  margin-left: 213px;
   opacity: 0.85;
 }
 
@@ -1063,6 +1064,7 @@ img {
 
 .office-page__feature--privacy .office-page__feature-content {
   padding: 0 0 0 24px;
+  margin-left: -28px;
 }
 
 .office-page__feature-title {
