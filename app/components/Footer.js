@@ -10,9 +10,9 @@ export default function Footer() {
                 <div className="footer-main__grid">
                     <div className="footer-main__brand">
                         <h3>Dr. Maya Reynolds, PsyD</h3>
-                        <p>Santa Monica, CA</p>
+                        <p>123th Street 45 W, Santa Monica, CA 90401</p>
                         <br />
-                        <a href="mailto:email@example.com">email@example.com</a>
+                        <a href="mailto:maonica@Healinghorizon.com">maonica@Healinghorizon.com</a>
                         <a href="tel:+18005555555">(800) 555-5555</a>
                     </div>
 

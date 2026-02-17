@@ -7,7 +7,7 @@ export default function OfficePage() {
   return (
     <>
       <header className="header" id="header">
-        <Link href="/" className="header__logo">Dr. Maya Reynolds, PsyD</Link>
+        <Link href="/" className="header__logo">Healing Horizons</Link>
         <nav className="header__nav">
           <Link href="/#office" className="header__nav-link">Office</Link>
           <Link href="/#contact" className="header__nav-link">Contact</Link>
@@ -58,7 +58,7 @@ export default function OfficePage() {
           <div className="office-page__details">
             <div className="office-page__detail">
               <span className="office-page__detail-label">Location</span>
-              <span className="office-page__detail-text">Santa Monica, CA — easy parking and transit-friendly.</span>
+              <span className="office-page__detail-text">123th Street 45 W, Santa Monica, CA 90401 — easy parking and transit-friendly.</span>
             </div>
             <div className="office-page__detail">
               <span className="office-page__detail-label">Sessions</span>

@@ -8,7 +8,7 @@ export default function AboutMePage() {
   return (
     <>
       <header className="header" id="header">
-        <Link href="/" className="header__logo">Dr. Maya Reynolds, PsyD</Link>
+        <Link href="/" className="header__logo">Healing Horizons</Link>
         <nav className="header__nav">
           <Link href="/#office" className="header__nav-link">Office</Link>
           <Link href="/#blog" className="header__nav-link">Blog</Link>

@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Hero() {
@@ -8,13 +7,13 @@ export default function Hero() {
         <section className="hero" id="home">
             <div className="hero__image-block">
                 <div className="hero__image-wrapper">
-                    <Image
-                        src="/images/dr-maya-reynolds.png"
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src="/images/hero-photo.png"
                         alt="Dr. Maya Reynolds, licensed clinical psychologist in Santa Monica"
-                        width={450}
-                        height={600}
                         className="hero__image"
-                        priority
+                        loading="eager"
+                        decoding="async"
                     />
                 </div>
                 <p className="hero__caption">Dr. Maya Reynolds, PsyD</p>
